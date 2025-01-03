@@ -11,6 +11,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using WebSales.Data;
+using WebSales.Services;
 
 namespace WebSales
 {
@@ -39,6 +40,7 @@ namespace WebSales
             services.AddDbContext<WebSalesContext>(options => options.UseMySql(Configuration.GetConnectionString("WebSalesContext"), builder => builder.MigrationsAssembly("WebSales")));
 
             services.AddScoped<SeedingService>();
+            services.AddScoped<SellerService>();
 
         }
 
