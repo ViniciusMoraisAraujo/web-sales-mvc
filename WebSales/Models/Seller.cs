@@ -13,6 +13,7 @@ namespace WebSales.Models
         public DateTime BirthDate { get; set; }
         public double BaseSalary { get; set; }
         public Department Dep { get; set; }
+        public int DepartmentId { get; set; }
         public ICollection<SalesRecord> Sales { get; set; } = new List<SalesRecord>();
 
         public Seller()

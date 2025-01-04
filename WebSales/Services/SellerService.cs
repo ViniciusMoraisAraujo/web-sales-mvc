@@ -23,6 +23,7 @@ namespace WebSales.Services
         
         public void Insert(Seller obj)
         {
+            obj.Dep = _context.Department.First();
             _context.Add(obj);
             _context.SaveChanges();
         }
