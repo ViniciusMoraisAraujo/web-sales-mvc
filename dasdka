@@ -1,0 +1,95 @@
+[33mcommit ffc89e1430d417a88458b0a306a06787b9aa9ca0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Lonezin <vinidev.morais@gmail.com>
+Date:   Mon Jan 6 13:50:49 2025 -0300
+
+    Update seller and custom service exception
+
+[33mcommit 2ecf9d997eacf957f7569dab0daee6f30f437ccc[m
+Author: Lonezin <vinidev.morais@gmail.com>
+Date:   Mon Jan 6 13:10:09 2025 -0300
+
+    created view for details and eager loading for include department in details
+
+[33mcommit 3b6117893e75b1a2b8383b24ec16251de701d368[m
+Author: Lonezin <vinidev.morais@gmail.com>
+Date:   Mon Jan 6 12:55:20 2025 -0300
+
+    created delete for sellers
+
+[33mcommit 4fa7441b945032731164f584e4bb6f3b874ce969[m
+Author: Lonezin <vinidev.morais@gmail.com>
+Date:   Sat Jan 4 21:46:27 2025 -0300
+
+    Created SellerFormViewModel and Department select component
+
+[33mcommit 47881997f94fcebf721f93b5627b1963bbc36865[m
+Author: Lonezin <vinidev.morais@gmail.com>
+Date:   Sat Jan 4 13:34:20 2025 -0300
+
+    Created Foreign key not null
+
+[33mcommit 13bd6e0f77f95e2fff9420a6ca84c2593e41b162[m
+Author: Lonezin <vinidev.morais@gmail.com>
+Date:   Fri Jan 3 16:16:05 2025 -0300
+
+    created simple registration form
+
+[33mcommit 360dfe24a9c85cd126a2e09d2e5441384a8c5c9d[m
+Author: Lonezin <vinidev.morais@gmail.com>
+Date:   Fri Jan 3 15:51:02 2025 -0300
+
+    created Sellers Service, Find all and Sellers view
+
+[33mcommit acac49f9a4e62c4e7049acfe5a53bbb6fe722b73[m
+Author: Lonezin <vinidev.morais@gmail.com>
+Date:   Sun Dec 29 12:56:06 2024 -0300
+
+    created seending service
+
+[33mcommit 800f0ec9f954dfa7bbe71f8d220f551df1d366d7[m
+Author: Lonezin <vinidev.morais@gmail.com>
+Date:   Sun Dec 22 14:53:02 2024 -0300
+
+    created news entities and second migration
+
+[33mcommit c875735b34f7b861d7c8ed683a26cc5ec914dee9[m
+Author: Lonezin <vinidev.morais@gmail.com>
+Date:   Sun Dec 22 14:22:15 2024 -0300
+
+    new thme of bootstrap
+
+[33mcommit 028fab46249e7300c52f7f5fdceef6411bf236dd[m
+Author: Lonezin <vinidev.morais@gmail.com>
+Date:   Sun Dec 22 11:37:17 2024 -0300
+
+    created MySQL adaptation and first migration
+
+[33mcommit 3924f89ba6fd6c64c9febf456597bd4c744045e2[m
+Author: Lonezin <vinidev.morais@gmail.com>
+Date:   Sun Dec 22 11:02:20 2024 -0300
+
+    CRUD Scaffolding
+
+[33mcommit 590585963bac2040efdd4efda5a7ddde552a7894[m
+Author: Lonezin <vinidev.morais@gmail.com>
+Date:   Sun Dec 22 10:57:57 2024 -0300
+
+    remove controler and view department
+
+[33mcommit 65ef007118fbfd55d355aca76f430a0675414406[m
+Author: Lonezin <vinidev.morais@gmail.com>
+Date:   Sat Dec 21 11:29:25 2024 -0300
+
+    created first MVC
+
+[33mcommit 421e4114cc2abbb1609043e1acc2a3a78f4f0575[m
+Author: Vinicius Morais <vinidev.morais@gmail.com>
+Date:   Thu Dec 19 17:51:06 2024 -0300
+
+    First controller and Razor pages test
+
+[33mcommit 947c0b7f3bba6793385bd73c1cb3a47a44605cfb[m
+Author: Vinicius Morais <vinidev.morais@gmail.com>
+Date:   Thu Dec 19 10:19:07 2024 -0300
+
+    created project and git ignore
