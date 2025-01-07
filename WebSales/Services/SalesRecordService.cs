@@ -29,6 +29,21 @@ namespace WebSales.Services
                 .ThenInclude(s => s.Dep) // Inclui o departamento do vendedor
                 .OrderByDescending(x => x.Date) // Ordena por data
                 .ToListAsync();
+        }       
+        public async Task<List<IGrouping<Department, SalesRecord >>> FindBydDateGroupingAsync(DateTime? minDate, DateTime? maxDate)
+        {
+            var result = from obj in _context.SalesRecord select obj;
+            if (minDate.HasValue)
+                result = result.Where(x => x.Date >= minDate.Value);
+            if (maxDate.HasValue)
+                result = result.Where(x => x.Date <= maxDate.Value);
+
+            return await result
+                .Include(x => x.Sell) // Inclui o 
+                .ThenInclude(s => s.Dep) // Inclui o departamento do vendedor
+                .OrderByDescending(x => x.Date) // Ordena por data
+                .GroupBy(x => x.Sell.Dep)
+                .ToListAsync();
         }
     }
 }
